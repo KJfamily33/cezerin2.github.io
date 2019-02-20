@@ -2,7 +2,7 @@
 
 ### A) Cezerin Installtation
   
-  - **Clone Git repositor**
+  - **Clone Git repository**
   ```shell
   cd /var/www
   git clone https://github.com/cezerin2/cezerin2
@@ -46,3 +46,38 @@
   ```
   
     At this setup, we have api running on port 3001
+    
+### B) Cezerin Admin Installtation
+
+  - **Clone Git repository**
+  ```shell
+  cd /var/www
+  git clone https://github.com/cezerin2/cezerin2-admin
+  ```
+  
+  - **Change settings**
+  ```shell
+  cd /var/www/cezerin2/config
+  ```
+  
+    Open `admin.js` and change
+    
+      - api url
+      - websocket url
+      
+    Save file and go back to roop app direcotry
+    ```shell
+    cd ../
+    ```
+    
+  - **Install dependencies**
+  ```shell
+  npm i
+  ```
+  
+  - **Build project**
+  ```shell
+  npm run build
+  ```
+  
+    At this setup your, admin panel is now connected to api 
