@@ -1,0 +1,14 @@
+{
+  "name": "cezerin2-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sw-toolbox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "docsify-cli": "^4.3.0"
+  }
+}
