@@ -30,6 +30,10 @@ Open Source React and Node.js based eCommerce platform
   - **Server-side rendering (SEO friendly)**
   - **Passwordless**
 
+### License
+
+MIT
+
 Cezerin Community Site https://cezerin.org
 
 Slack Channel - https://cezerin2.slack.com

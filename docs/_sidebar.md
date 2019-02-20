@@ -2,6 +2,7 @@
 
   - [Overview](/)
   
-- Guides
+- Installtaion Guides
 
-  
+  - [Prerequisites](prerequisites.md)
+  - [Using source code](using-source-code.md)
