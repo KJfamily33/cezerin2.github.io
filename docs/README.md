@@ -7,6 +7,29 @@ Open Source React and Node.js based eCommerce platform
 
 ---
 
+### Features
+
+  - **Products (options, variants, attributes)**
+  - **Product categories**
+  - **Inventory and stock management**
+  - **Customers**
+  - **Customer groups**
+  - **Orders**
+  - **Order custom statuses**
+  - **Pages**
+  - **File manager**
+  - **Shipping and payment methods**
+  - **Custom shipping fields**
+  - **Payment Gateways**
+  - **Checkout options**
+  - **Access Tokens**
+  - **Export theme to zip archive**
+  - **Install theme from zip archive**
+  - **Theme Settings**
+  - **Apps Store**
+  - **Server-side rendering (SEO friendly)**
+  - **Passwordless**
+
 Cezerin Community Site https://cezerin.org
 
 Slack Channel - https://cezerin2.slack.com
