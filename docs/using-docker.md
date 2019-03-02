@@ -10,7 +10,7 @@
  docker run -d \
  --name store-db \
  -v /db-on-host:/data/db \
- mongo:latest
+ mongo:3.6
  ```
 
  - **Run Cezerin2** [About image](https://github.com/Cezerin2/docker-cezerin2/blob/master/cezerin2/README.md).
@@ -50,19 +50,20 @@
 
  - **Open Cezerin2**
 
- Application|Repo|URL
--|-|-
-`Store`|cezerin2-store|[http://localhost:3000](http://localhost:3000)
-`api`|cezerin2|[http://localhost:3001](http://localhost:3001)
-`admin`|cezerin2-admin|[http://localhost:3002](http://localhost:3002)
+ | Application | Repo | URL |
+ | --- | --- | --- |
+ | `Store` | cezerin2-store | [http://localhost:3000](http://localhost:3000) |
+ | `api` | cezerin2 | [http://localhost:3001](http://localhost:3001) |
+ | `admin` | cezerin2-admin | [http://localhost:3002](http://localhost:3002) |
 
 ### Docker Compose
 
  - **docker-compose.yml** [About image](https://github.com/Cezerin2/docker-cezerin2/blob/master/README.md).
-```shell
-version: '3'
 
-services:
+ ```shell
+ version: '3'
+
+ services:
   cezerin2:
     image: cezerin2/cezerin2
     ports:
@@ -99,18 +100,18 @@ services:
     restart: always
 
   db:
-    image: mongo:3.4
+    image: mongo:3.6
     ports:
       - 27017:27017
     volumes:
       - ./db-on-host:/data/db
     restart: always
-```
+ ```
 
  - **Open Cezerin2**
 
- Application|Repo|URL
--|-|-
-`Store`|cezerin2-store|[http://localhost:3000](http://localhost:3000)
-`api`|cezerin2|[http://localhost:3001](http://localhost:3001)
-`admin`|cezerin2-admin|[http://localhost:3002](http://localhost:3002)
+ | Application | Repo | URL |
+ | --- | --- | --- |
+ | `Store` | cezerin2-store | [http://localhost:3000](http://localhost:3000) |
+ | `api` | cezerin2 | [http://localhost:3001](http://localhost:3001) |
+ | `admin` | cezerin2-admin | [http://localhost:3002](http://localhost:3002) |
