@@ -64,6 +64,9 @@ info: API running at http://localhost:3001
 info: MongoDB connected successfully
   ```
 
+-Youtube:
+-Cezerin Installation Manual. Part 1 - Backend Installation.
+
 [![Cezerin installation from scratch. Part 1 - Backend Installation.
 ](http://img.youtube.com/vi/8qqpudkKIdo/0.jpg)](https://www.youtube.com/watch?v=8qqpudkKIdo)
 
