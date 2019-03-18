@@ -156,7 +156,7 @@ Youtube video: **Cezerin Installation Manual. Part 2 - Frontend (Store) Installa
   ```
   
   - At this setup your cezerin admin dashboard app is now connected to api and available in browser at **http://localhost:3002** 
-  - **P.S. Your backend (api) must be online. Don't forget to start backend before you starting storefront app.** 
+  - **P.S. Your backend (api) must be online. Don't forget to start backend before you starting admin dashboard app.** 
   
   ```shell
 [PM2] Starting /usr/local/lib/node_modules/pm2/lib/API/Serve.js in fork_mode (1 instance)
