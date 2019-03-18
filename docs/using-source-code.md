@@ -4,7 +4,6 @@
   
   - **Clone Git repository**
   ```shell
-  cd /home/work/cezerin
   git clone https://github.com/cezerin2/cezerin2
   cd cezerin2
   ```
@@ -31,7 +30,9 @@
   ```
   
   - **Setup database** 
-  -Prepare database at this setup our database is empty. To add default data, indexes and access token we need to run:
+  
+  Prepare database at this setup our database is empty. To add default data, indexes and access token we need to run:
+
   ```shell
   npm run setup <email> <domain>
   ```
@@ -72,7 +73,6 @@ info: MongoDB connected successfully
 
   - **Clone Git repository**
   ```shell
-  cd /home/work/cezerin
   git clone https://github.com/cezerin2/cezerin2-store
   ```
   
@@ -81,7 +81,7 @@ info: MongoDB connected successfully
   cd cezerin2-store/config
   ```
   
-  - **Open `server.js` and change**
+  - **Open `store.js` and change**
   
       - JWT and Cookie Secret Key
       
@@ -125,7 +125,6 @@ info: Store running at http://localhost:3000
 
   - **Clone Git repository**
   ```shell
-  cd /home/work/cezerin
   git clone https://github.com/cezerin2/cezerin2-admin
   ```
   
