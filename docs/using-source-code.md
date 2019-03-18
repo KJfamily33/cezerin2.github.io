@@ -81,8 +81,8 @@ info: MongoDB connected successfully
   cd cezerin2-store/config
   ```
   
-    Open `store.js` and change
-    
+  - **Open `server.js` and change**
+  
       - JWT and Cookie Secret Key
       
     Save file and go back to roop app direcotry
@@ -129,21 +129,6 @@ info: Store running at http://localhost:3000
   git clone https://github.com/cezerin2/cezerin2-admin
   ```
   
-  - **Change settings**
-  ```shell
-  cd /cezerin2-admin/config
-  ```
-  
-    Open `admin.js` and change
-    
-      - api url
-      - websocket url
-      
-    Save file and go back to roop app direcotry
-    ```shell
-    cd ../
-    ```
-    
   - **Install dependencies**
   ```shell
   npm i
@@ -166,7 +151,7 @@ info: Store running at http://localhost:3000
   
     At this setup your cezerin admin dashboard app is now connected to api and available in browser at **http://localhost:3002** 
   
-  ```    
+  ```shell
 vam@vam:/home/work/cezerin/cezerin2-admin$ pm2 serve ./dist 3002
 [PM2] Starting /usr/local/lib/node_modules/pm2/lib/API/Serve.js in fork_mode (1 instance)
 [PM2] Done.
