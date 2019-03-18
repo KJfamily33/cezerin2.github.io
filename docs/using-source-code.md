@@ -134,13 +134,13 @@ info: Store running at http://localhost:3000
   ```shell
   pm2 start process.json
   ```
-    or:  
+  - or:  
   
   ```shell
   pm2 serve ./dist 3002
   ```
   
-    At this setup your cezerin admin dashboard app is now connected to api and available in browser at **http://localhost:3002** 
+  - At this setup your cezerin admin dashboard app is now connected to api and available in browser at **http://localhost:3002** 
   
   ```shell
 [PM2] Starting /usr/local/lib/node_modules/pm2/lib/API/Serve.js in fork_mode (1 instance)
