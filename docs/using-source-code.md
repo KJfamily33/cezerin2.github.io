@@ -60,11 +60,6 @@
   - For example, here is the default store settings: **http://localhost:3001/api/v1/settings**  
   
   ```shell
-vam@vam:/home/work/cezerin/cezerin2$ npm start
-
-> cezerin2@0.33.0 start /home/work/cezerin/cezerin2
-> node -r esm src/index.js
-
 info: API running at http://localhost:3001
 info: MongoDB connected successfully
   ```
@@ -114,9 +109,6 @@ info: MongoDB connected successfully
   - At this setup your cezerin store is now connected to api and available in browser at **http://localhost:3000** 
   
   ```shell
-> cezerin2-store@0.33.0 start /home/work/cezerin/cezerin2-store
-> node -r esm dist/server/index.js
-
 info: Store running at http://localhost:3000
   ```
     
@@ -151,7 +143,6 @@ info: Store running at http://localhost:3000
     At this setup your cezerin admin dashboard app is now connected to api and available in browser at **http://localhost:3002** 
   
   ```shell
-vam@vam:/home/work/cezerin/cezerin2-admin$ pm2 serve ./dist 3002
 [PM2] Starting /usr/local/lib/node_modules/pm2/lib/API/Serve.js in fork_mode (1 instance)
 [PM2] Done.
 [PM2] Serving /home/work/cezerin/cezerin2-admin/dist on port 3002
