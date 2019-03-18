@@ -67,7 +67,7 @@ info: MongoDB connected successfully
 Youtube video: **Cezerin Installation Manual. Part 1 - Backend Installation.**
 
 [![Cezerin installation from scratch. Part 1 - Backend Installation.
-](http://img.youtube.com/vi/8qqpudkKIdo/0.jpg)](https://www.youtube.com/watch?v=8qqpudkKIdo)
+](https://img.youtube.com/vi/8qqpudkKIdo/0.jpg)](https://www.youtube.com/watch?v=8qqpudkKIdo)
 
 ### B) Cezerin Frontend (Store) Installation
 
