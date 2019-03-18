@@ -31,7 +31,7 @@
   ```
   
   - **Setup database** 
-  Prepare database at this setup our database is empty. To add default data, indexes and access token we need to run:
+  -Prepare database at this setup our database is empty. To add default data, indexes and access token we need to run:
   ```shell
   npm run setup <email> <domain>
   ```
@@ -41,14 +41,14 @@
     npm run setup admin@example.com http://localhost
     ```
 
-    This script will add token with email admin@example.com and my domain to http://localhost
+  - This script will add token with email admin@example.com and my domain to http://localhost
     
   - **Start application in the background**
   ```shell
   pm2 start process.json
   ```
 
-  - **or you can start app in your terminal (you will see debug information, that is useful for debug):  
+  - or you can start app in your terminal (you will see debug information, that is useful for debug):  
   
   ```shell
   npm start
