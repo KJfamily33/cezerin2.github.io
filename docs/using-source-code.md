@@ -64,9 +64,9 @@ info: API running at http://localhost:3001
 info: MongoDB connected successfully
   ```
 
-Youtube video: **Cezerin Installation Manual. Part 1 - Backend Installation.**
+Youtube video: **Cezerin Installation Manual. Part 1 - Backend (API) Installation.**
 
-[![Cezerin installation from scratch. Part 1 - Backend Installation.
+[![Cezerin Installation Manual. Part 1 - Backend (API) Installation.
 ](https://img.youtube.com/vi/8qqpudkKIdo/0.jpg)](https://www.youtube.com/watch?v=8qqpudkKIdo)
 
 ### B) Cezerin Frontend (Store) Installation
@@ -118,6 +118,10 @@ Youtube video: **Cezerin Installation Manual. Part 1 - Backend Installation.**
 info: Store running at http://localhost:3000
   ```
     
+Youtube video: **Cezerin Installation Manual. Part 2 - Frontend (Store) Installation.**
+
+[![Cezerin Installation Manual. Part 2 - Frontend (Store) Installation.
+](https://img.youtube.com/vi/ldtyjIpiBrM/0.jpg)](https://www.youtube.com/watch?v=ldtyjIpiBrM)
     
 ### C) Cezerin Frontend (Admin Dashboard) Installation
 
