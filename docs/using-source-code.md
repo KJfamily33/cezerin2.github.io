@@ -133,6 +133,7 @@ Youtube video: **Cezerin Installation Manual. Part 2 - Frontend (Store) Installa
   - **Go to cezerin2-admin app folder**
   ```shell
   cd cezerin2-admin
+  ```
   
   - **Install dependencies**
   ```shell
