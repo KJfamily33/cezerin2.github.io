@@ -85,7 +85,7 @@ info: MongoDB connected successfully
   
       - JWT and Cookie Secret Key
       
-    Save file and go back to roop app direcotry
+    Save file and go back to root app direcotry
     ```shell
     cd ../
     ```
