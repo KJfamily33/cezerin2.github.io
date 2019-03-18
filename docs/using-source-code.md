@@ -129,6 +129,10 @@ Youtube video: **Cezerin Installation Manual. Part 2 - Frontend (Store) Installa
   ```shell
   git clone https://github.com/cezerin2/cezerin2-admin
   ```
+
+  - **Go to cezerin2-admin app folder**
+  ```shell
+  cd cezerin2-admin
   
   - **Install dependencies**
   ```shell
