@@ -123,7 +123,7 @@ Youtube video: **Cezerin Installation Manual. Part 2 - Frontend (Store) Installa
 [![Cezerin Installation Manual. Part 2 - Frontend (Store) Installation.
 ](https://img.youtube.com/vi/ldtyjIpiBrM/0.jpg)](https://www.youtube.com/watch?v=ldtyjIpiBrM)
     
-### C) Cezerin Frontend (Admin Dashboard) Installation
+### C) Cezerin Admin Dashboard Installation
 
   - **Clone Git repository**
   ```shell
