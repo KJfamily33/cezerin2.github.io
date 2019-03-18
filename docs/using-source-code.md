@@ -105,13 +105,13 @@ info: MongoDB connected successfully
   pm2 start process.json
   ```
 
-    or you can start app in your terminal (you will see debug information, that is useful for debug):  
+  - or you can start app in your terminal (you will see debug information, that is useful for debug):  
   
   ```shell
   npm start
   ```
   
-    At this setup your cezerin store is now connected to api and available in browser at **http://localhost:3000** 
+  - At this setup your cezerin store is now connected to api and available in browser at **http://localhost:3000** 
   
   ```shell
 > cezerin2-store@0.33.0 start /home/work/cezerin/cezerin2-store
