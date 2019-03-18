@@ -13,8 +13,7 @@
   ```shell
   cd config
   ```
-  
-    Open `server.js` and change
+  - **Open `server.js` and change
   
       - MongoDB Creditionals
       - SMTP Settings
@@ -46,13 +45,15 @@
   pm2 start process.json
   ```
 
-    or you can start app in your terminal (you will see debug information, that is useful for debug):  
+  - **or you can start app in your terminal (you will see debug information, that is useful for debug):  
   
   ```shell
   npm start
   ```
   
-    At this setup, we have api running on port 3001
+  - **At this setup, we have api running on port 3001 and available at http://localhost:3001
+  
+  - ** For example, here is the default store settings: http://localhost:3001/api/v1/settings  
   
   ```    
 vam@vam:/home/work/cezerin/cezerin2$ npm start
