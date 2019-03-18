@@ -52,11 +52,11 @@
   npm start
   ```
   
-  - **At this setup, we have api running on port 3001 and available at **http://localhost:3001**
+  - At this setup, we have api running on port 3001 and available at **http://localhost:3001**
   
-  - ** For example, here is the default store settings: http://localhost:3001/api/v1/settings  
+  - For example, here is the default store settings: **http://localhost:3001/api/v1/settings**  
   
-  ```    
+  ```shell
 vam@vam:/home/work/cezerin/cezerin2$ npm start
 
 > cezerin2@0.33.0 start /home/work/cezerin/cezerin2
@@ -111,7 +111,7 @@ info: MongoDB connected successfully
   
     At this setup your cezerin store is now connected to api and available in browser at **http://localhost:3000** 
   
-  ```    
+  ```shell
 > cezerin2-store@0.33.0 start /home/work/cezerin/cezerin2-store
 > node -r esm dist/server/index.js
 
