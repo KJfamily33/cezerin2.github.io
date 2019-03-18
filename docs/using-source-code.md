@@ -170,3 +170,8 @@ Youtube video: **Cezerin Installation Manual. Part 2 - Frontend (Store) Installa
  Use `pm2 show <id|name>` to get more details about an app
 
   ```
+
+Youtube video: **Cezerin Installation Manual. Part 3 - Admin Dashboard Installation.**
+
+[![Cezerin Installation Manual. Part 3 - Admin Dashboard Installation.
+](https://img.youtube.com/vi/dreihHE82Ds/0.jpg)](https://www.youtube.com/watch?v=dreihHE82Ds)
