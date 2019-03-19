@@ -22,8 +22,8 @@
  -e DB_HOST=db \
  -e DB_PORT=27017 \
  -e DB_NAME=shop \
- -e DB_USER=user \
- -e DB_PASS=password \
+ -e DB_USER= \
+ -e DB_PASS= \
  -v /content-on-host:/var/www/cezerin2/public/content \
  cezerin2/cezerin2:latest
  ```
@@ -72,8 +72,8 @@
       - DB_HOST=db
       - DB_PORT=27017
       - DB_NAME=shop
-      - DB_USER=user
-      - DB_PASS=password
+      - DB_USER=
+      - DB_PASS=
     volumes:
       - ./content-on-host:/var/www/cezerin2/public/content
     depends_on:
