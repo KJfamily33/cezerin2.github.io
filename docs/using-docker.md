@@ -40,7 +40,7 @@
  - **Run Cezerin2 Store** [About image](https://github.com/Cezerin2/docker-cezerin2/blob/master/cezerin2-store/README.md).
  ```shell
  docker run -d \
- --name ceszerin2-store \
+ --name cezerin2-store \
  --link cezerin2:cezerin2 \
  -p 3000:80 \
  -e API_BASE_URL=http://cezerin2/api/v1 \
