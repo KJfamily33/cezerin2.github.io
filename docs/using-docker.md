@@ -121,7 +121,7 @@
 
  - **Upload default store data (sample products, categories, email templates, settings etc...) to the database**
  ```shell
- docker exec compose_cezerin2_1 bash -c "npm run setup admin@example.com http://localhost:3000"
+ docker exec cezerin_cezerin2_1 bash -c "npm run setup admin@example.com http://localhost:3000"
  ```
 
  - **Open Cezerin2**
