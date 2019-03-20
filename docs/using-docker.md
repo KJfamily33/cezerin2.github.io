@@ -58,8 +58,8 @@
  | Application | Repo | URL |
  | --- | --- | --- |
  | `Store` | cezerin2-store | [http://localhost:3000](http://localhost:3000) |
- | `api` | cezerin2 | [http://localhost:3001](http://localhost:3001) |
- | `admin` | cezerin2-admin | [http://localhost:3002](http://localhost:3002) |
+ | `Api` | cezerin2 | [http://localhost:3001](http://localhost:3001) |
+ | `Admin` | cezerin2-admin | [http://localhost:3002](http://localhost:3002) |
 
 ### Docker Compose
 
@@ -128,5 +128,5 @@
  | Application | Repo | URL |
  | --- | --- | --- |
  | `Store` | cezerin2-store | [http://localhost:3000](http://localhost:3000) |
- | `api` | cezerin2 | [http://localhost:3001](http://localhost:3001) |
- | `admin` | cezerin2-admin | [http://localhost:3002](http://localhost:3002) |
+ | `Api` | cezerin2 | [http://localhost:3001](http://localhost:3001) |
+ | `Admin` | cezerin2-admin | [http://localhost:3002](http://localhost:3002) |
