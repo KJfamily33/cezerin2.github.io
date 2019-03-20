@@ -61,6 +61,11 @@
  | `Api` | cezerin2 | [http://localhost:3001](http://localhost:3001) |
  | `Admin` | cezerin2-admin | [http://localhost:3002](http://localhost:3002) |
 
+Youtube video: **Cezerin Installation Manual. Docker.**
+
+[![Cezerin Installation Manual. Docker.
+](https://img.youtube.com/vi/ADvr2OqqB9Y/0.jpg)](https://youtu.be/ADvr2OqqB9Y)
+
 ### Docker Compose
 
  - **docker-compose.yml** [About image](https://github.com/Cezerin2/docker-cezerin2/blob/master/README.md).
@@ -131,3 +136,8 @@
  | `Store` | cezerin2-store | [http://localhost:3000](http://localhost:3000) |
  | `Api` | cezerin2 | [http://localhost:3001](http://localhost:3001) |
  | `Admin` | cezerin2-admin | [http://localhost:3002](http://localhost:3002) |
+
+Youtube video: **Cezerin Installation Manual. Docker Compose.**
+
+[![Cezerin Installation Manual. Docker Compose.
+](https://img.youtube.com/vi/xZ0XUrobaMg/0.jpg)](https://youtu.be/xZ0XUrobaMg)
