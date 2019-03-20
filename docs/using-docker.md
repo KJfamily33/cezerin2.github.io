@@ -116,7 +116,7 @@
 
  - **Start containers with docker-compose command**
  ```shell
- docker-compose up -d"
+ docker-compose up -d
  ```
 
  - **Upload default store data (sample products, categories, email templates, settings etc...) to the database**
