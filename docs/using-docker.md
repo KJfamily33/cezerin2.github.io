@@ -64,6 +64,7 @@
 ### Docker Compose
 
  - **docker-compose.yml** [About image](https://github.com/Cezerin2/docker-cezerin2/blob/master/README.md).
+ - [Download docker-compose.yml](https://raw.githubusercontent.com/Cezerin2/docker-cezerin2/master/docker-compose.yml)
 
  ```shell
  version: '3'
