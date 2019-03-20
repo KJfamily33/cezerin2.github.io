@@ -48,6 +48,11 @@
  cezerin2/cezerin2-store:latest
  ```
 
+ - **Upload default store data (sample products, categories, email templates, settings etc...) to the database**
+ ```shell
+ docker exec cezerin2 bash -c "npm run setup admin@example.com http://localhost:3000"
+ ```
+
  - **Open Cezerin2**
 
  | Application | Repo | URL |
@@ -106,6 +111,16 @@
     volumes:
       - ./db-on-host:/data/db
     restart: always
+ ```
+
+ - **Start containers with docker-compose command**
+ ```shell
+ docker-compose up -d"
+ ```
+
+ - **Upload default store data (sample products, categories, email templates, settings etc...) to the database**
+ ```shell
+ docker exec compose_cezerin2_1 bash -c "npm run setup admin@example.com http://localhost:3000"
  ```
 
  - **Open Cezerin2**
