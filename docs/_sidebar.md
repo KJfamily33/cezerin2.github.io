@@ -9,4 +9,6 @@
   - [Using docker](using-docker.md)
 
 - Help
+  - [FAQ](faq.md)
+  - [HowTos](howtos.md)
   - [Help and Support](help-and-support.md)
