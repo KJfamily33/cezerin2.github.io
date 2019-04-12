@@ -1,6 +1,9 @@
-### FAQ
+## FAQ
 
-## CORS (Allow-Cross-Origin) Error. How to fix?!
+Feel free to add your FAQs.
+You can add it by making Pull Request to the https://github.com/Cezerin2/cezerin2.github.io
+
+### CORS (Allow-Cross-Origin) Error. How to fix?!
 
 You need to change all configs and replace all localhost with your ip number or domain name.
 
@@ -8,7 +11,9 @@ How it's work.
 
 Check file: /cezerin2/src/index.js
 This code:
-`// CORS headers
+
+```javascript
+// CORS headers
     var allowedOrigins = security.getAccessControlAllowOrigin();
     var origin = req.headers.origin;
     if (allowedOrigins === '*') {
@@ -18,14 +23,16 @@ This code:
             res.setHeader('Access-Control-Allow-Origin', origin);
         }
     }
-`    
+```    
 And this file: /cezerin2/src/lib/security.js
-`
+
+```javascript
 const getAccessControlAllowOrigin = () => {
     return [settings.storeBaseUrl, settings.adminBaseURL] || '*';
 };
-`
-storeBaseUrl and adminBaseURL settings localted in your config /cezerin2/config/server.js
+```
+
+storeBaseUrl and adminBaseURL settings located in your config /cezerin2/config/server.js
   
   
 ### Question 1
