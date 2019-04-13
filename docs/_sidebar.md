@@ -5,6 +5,7 @@
 - Installation Guides
 
   - [Prerequisites](prerequisites.md)
+  - [Setup Database](setup-database.md)
   - [Using source code](using-source-code.md)
   - [Using docker](using-docker.md)
 
