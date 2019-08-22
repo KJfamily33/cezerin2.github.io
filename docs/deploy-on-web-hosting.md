@@ -1,5 +1,5 @@
 ## 1. Hosting
-You can use any hosting: shared hosting with ssh, VM hosting, VDS hosting, NodeJS hosting, DigitalOcean, cloud services like Heroku, Amazon AWS, Google Cloud, any...)
+You can use any hosting: shared hosting with ssh, VM hosting, VDS hosting, NodeJS hosting, DigitalOcean, cloud services like Heroku, Amazon AWS, Google Cloud, any...
 All you need is MERN stack (MongoDB + ExpressJS + ReactJs + NodeJS), nothing special.
 You can install it on virtual machine, or you can use "out of the box" services like Heroku, Google Firebase etc...
 
