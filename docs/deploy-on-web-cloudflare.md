@@ -15,5 +15,8 @@
  - Add `A` record for admin dashboard:
  
  Type: A
+ 
  Name: admin
+ 
  Content: your-droplet-ip-address
+ 
