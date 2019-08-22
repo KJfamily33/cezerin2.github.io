@@ -1,6 +1,6 @@
 ## 9. Final checks
 
-Thats all.
+That's all.
 
 If you:
 1. Run cezerin2, cezerin2-store, cezerin2-admin apps.
