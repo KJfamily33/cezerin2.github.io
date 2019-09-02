@@ -48,9 +48,5 @@ Then download cezerin2-store and try to install:
 npm i && npm run build
 ```
 
-  
-### Question 1
-
-Answer 1
 
 [**GitHub Issues**](https://github.com/cezerin2/cezerin2/issues): https://github.com/cezerin2/cezerin2/issues
