@@ -43,7 +43,7 @@ Try to install node-sass before cezerin2-store.
 sudo npm i —unsafe-perm node-sass
 ```
 
-Then download cezerin2-store and:
+Then download cezerin2-store and try to install:
 ```javascript
 npm i && npm run build
 ```
