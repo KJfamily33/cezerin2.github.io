@@ -34,6 +34,20 @@ const getAccessControlAllowOrigin = () => {
 
 storeBaseUrl and adminBaseURL settings located in your config /cezerin2/config/server.js
   
+
+### Can't build cezerin2-store app, how to fix?
+
+Try to install node-sass before cezerin2-store.
+
+```javascript
+sudo npm i —unsafe-perm node-sass
+```
+
+Then download cezerin2-store and:
+```javascript
+npm i && npm run build
+```
+
   
 ### Question 1
 
