@@ -67,5 +67,14 @@ npm install --save bcrypt
 npm audit fix
 ```
 
+### "npm run build" command returns "Error 137", how to fix?
+
+Increase RAM size (free memory) on your machine.
+
+You can see free memory by this console command:
+
+```javascript
+free -m
+```
 
 [**GitHub Issues**](https://github.com/cezerin2/cezerin2/issues): https://github.com/cezerin2/cezerin2/issues
