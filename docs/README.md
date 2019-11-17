@@ -11,6 +11,7 @@ Open Source React and Node.js based eCommerce platform
 
   - **Products (options, variants, attributes)**
   - **Product categories**
+  - **Product import**
   - **Inventory and stock management**
   - **Customers**
   - **Customer groups**
