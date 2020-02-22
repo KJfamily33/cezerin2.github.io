@@ -9,7 +9,7 @@ If you need some help with deployment and something does not quite work, message
   - [**Cezerin Community Site**](https://cezerin.org): https://cezerin.org
   - [**GitHub Issues**](https://github.com/cezerin2/cezerin2/issues): https://github.com/cezerin2/cezerin2/issues
   
-  - [**Gitter Chat Cezerin2**](https://gitter.im/cezerin2): https://gitter.im/cezerin2
+  - [**Telegram Chat: Cezerin**](https://t.me/cezerin): https://t.me/cezerin
   
   - [**Google Groups Forum**](https://groups.google.com/forum/#!forum/cezerin): https://groups.google.com/forum/#!forum/cezerin
   
