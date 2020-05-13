@@ -9,48 +9,50 @@ You need to change all configs and replace all localhost with your ip number or 
 
 How it's work.
 
-Check file: /cezerin2/src/index.js
+Check file: /cezerin2/src/index.ts
 This code:
 
 ```javascript
 // CORS headers
-    var allowedOrigins = security.getAccessControlAllowOrigin();
-    var origin = req.headers.origin;
-    if (allowedOrigins === '*') {
-        res.setHeader('Access-Control-Allow-Origin', allowedOrigins);
-    } else {
-        if (allowedOrigins.indexOf(origin) > -1) {
-            res.setHeader('Access-Control-Allow-Origin', origin);
-        }
-    }
-```    
-And this file: /cezerin2/src/lib/security.js
+var allowedOrigins = security.getAccessControlAllowOrigin();
+var origin = req.headers.origin;
+if (allowedOrigins === "*") {
+  res.setHeader("Access-Control-Allow-Origin", allowedOrigins);
+} else {
+  if (allowedOrigins.indexOf(origin) > -1) {
+    res.setHeader("Access-Control-Allow-Origin", origin);
+  }
+}
+```
+
+And this file: /cezerin2/src/lib/security.ts
 
 ```javascript
 const getAccessControlAllowOrigin = () => {
-    return [settings.storeBaseUrl, settings.adminBaseURL] || '*';
+  return [settings.storeBaseUrl, settings.adminBaseURL] || "*";
 };
 ```
 
-storeBaseUrl and adminBaseURL settings located in your config /cezerin2/config/server.js
-  
+storeBaseUrl and adminBaseURL settings located in your config /cezerin2/config/server.ts
 
 ### Can't build cezerin2-store app, how to fix?
 
 Try to install node-sass before cezerin2-store dependencies.
 
-```javascript
+```
 sudo npm i --unsafe-perm node-sass
 ```
 
 Then download cezerin2-store and try to install:
-```javascript
+
+```
 npm i && npm run build
 ```
 
 ### Can't build cezerin2 app (api) on ubuntu, how to fix?
 
 If you have this error:
+
 ```javascript
 Failed to execute '/usr/bin/node /usr/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js build --fallback-to-build --module=/root/cezerin2/node_modules/bcrypt/lib/binding/bcrypt_lib.node --module_name=bcrypt_lib --module_path=/root/cezerin2/node_modules/bcrypt/lib/binding --napi_version=4 --node_abi_napi=napi --napi_build_version=0 --node_napi_label=node-v72' (1)
 npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules/fsevents):
@@ -58,7 +60,6 @@ npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
 ```
 
 Possible problem in bcrypt dependency.
-
 
 Try to install cezerin2 app like this:
 
@@ -74,7 +75,7 @@ Increase RAM size (free memory) on your machine.
 You can see free memory by this console command:
 
 ```javascript
-free -m
+free - m;
 ```
 
 [**GitHub Issues**](https://github.com/cezerin2/cezerin2/issues): https://github.com/cezerin2/cezerin2/issues
