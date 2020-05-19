@@ -31,6 +31,7 @@ cd src
 
 ```shell
 npm i
+npm compile
 ```
 
 - **Setup database**
@@ -86,10 +87,10 @@ git clone https://github.com/cezerin2/cezerin2-store
 - **Change settings**
 
 ```shell
-cd cezerin2-store/config
+cd cezerin2-store/src
 ```
 
-- **Open `store.js` and change**
+- **Open `config.tsx` and change**
 
   - JWT and Cookie Secret Key
 
@@ -158,6 +159,7 @@ npm i
 - **Build project**
 
 ```shell
+npm run compile
 npm run build
 ```
 
