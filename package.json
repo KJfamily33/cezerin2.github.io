@@ -8,6 +8,6 @@
   },
   "license": "Unlicense",
   "devDependencies": {
-    "docsify-cli": "^4.4.0"
+    "docsify-cli": "^4.4.1"
   }
 }
